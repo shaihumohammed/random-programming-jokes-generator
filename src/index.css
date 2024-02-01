@@ -1,0 +1,53 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*,
+*::before,
+*::after {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("/wave\ .svg") bottom no-repeat;
+}
+/*joke styles*/
+.joke {
+  width: 500px;
+  padding: 1rem;
+}
+
+/*button styles*/
+
+button {
+  height: 2.5rem;
+  width: 6.5rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  background: rgba(13, 96, 221, 0.952);
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background: rgba(60, 138, 255, 0.932);
+}
+/*small screen*/
+
+@media screen and (max-width: 640px) {
+  .joke {
+    padding: 0.5rem;
+    width: 95svw;
+  }
+}
