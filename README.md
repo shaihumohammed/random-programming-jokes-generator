@@ -1,6 +1,7 @@
 # Random-Programming-Jokes-Generator
 
 This a simple website which generate a random programming jokes using [Jokes](https://v2.jokeapi.dev) API.
+This  is the live preview [here](https://random-programming-jokes-generator.vercel.app/)
 
 # Screenshot
 
